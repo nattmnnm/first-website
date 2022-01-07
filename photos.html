@@ -1,22 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    
+
     <title>Fotos</title>
 
-    <link rel= "shortcut icon"
-    href= "https://cdn0.iconfinder.com/data/icons/set-app-incredibles/24/Image-01-256.png"
-    type="image/ x-icon"
+    <link rel="shortcut icon" href="https://cdn0.iconfinder.com/data/icons/set-app-incredibles/24/Image-01-256.png"
+        type="image/ x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
-    <ul>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="contact.html">Contacto</a></li>
-        <li><a href="photos.html">Fotos</a></li>
-    </ul>
 
-    <img src="img/IMG_2611.jpeg" alt="yo">
+    <nav class="bg-slate-900 p-3 mb-3 text-white">
+        <ul class="flex justify-end font-semibold">
+            <li><a href="photos.html" class="mx-3 text-red-600 hover:text-red-400">Fotos</a></li>
+            <li><a href="contact.html" class="mx-3 hover:text-red-600">Contacto</a></li>
+            <li><a href="index.html" class="mx-3 hover:text-red-600">Inicio</a></li>
+        </ul>
+    </nav>
+
+    <h1 class="text-5xl font-bold my-5">Fotos</h1>
+
+    <hr class="border-black my-10">
+
+    <img class="w-1/4 rounded m-auto" src="img/IMG_2611.jpeg" alt="yo">
 </body>
+
 </html>

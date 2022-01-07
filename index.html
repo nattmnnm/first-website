@@ -1,34 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+    
 <head>
     <meta charset="UTF-8">
     <title>Conociendo a una Jujeña</title>
     <link rel = "shortcut icon"
     href = "https://cdn3.iconfinder.com/data/icons/coronavirus-line/32/coronavirus-22-256.png"
     type = "image / x-icon">   
+    <link href="styles/index.css"
+    rel="stylesheet" 
+    type="text/css">
     <meta name="Author" content= "Natalí">
-
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <ul>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="contact.html">Contacto</a></li>
-        <li><a href="photos.html">Fotos</a></li>
-    </ul>
 
-    <h1> ¡Todo acerca de mi!</h1>
-    <h2>Breve autobiografía de Natalí Machaca</h2>
+<body class="text-center bg-zinc-200">
+    <nav class="bg-slate-900 p-3 mb-3 text-white">
+        <ul class="flex justify-end font-semibold">
+            <li><a href="photos.html" class="mx-3 hover:text-red-600">Fotos</a></li>
+            <li><a href="contact.html" class="mx-3 hover:text-red-600">Contacto</a></li>
+            <li><a href="index.html" class="mx-3 text-red-600 hover:text-red-400">Inicio</a></li>
+        </ul>
+    </nav>
 
-    <p>
-        Micol Neyén Natalí Machaca, mejor conocinada como Natalí, es Técnica Química, egresada de la institución 
-        Ing Luis Huergo el año 2021, a la edad de 19 años. 
-        Actualmente uno de sus objetivos es saber que le apasiona en la vida, trabajar, independizarse
-        y vivir la vida loca. <br>
-        Nació el 15 Ago 2002 en una pequeña localidad de Jujuy. Y vivió sus primeros 2 años junto con sus abuelos
-        (Eva y Raúl), hasta que su madre (Mirta) decidió independizarse para criar a su hija sola, 
-        como toda madre luchona.
-    </p>
-<img src="img/image.png"
-alt="Natalí chiquita">
+    <h1 class="text-5xl font-bold my-5"> ¡Todo acerca de mi!</h1>
+    <h2 class="text-2xl my-3">Breve autobiografía de Natalí Machaca</h2>
+
+    <hr class="border-black"> 
+    <div class="flex justify-center mt-5 mx-20">
+        <div class="mr-8">
+            <img src="img/image.png"
+            alt="Natalí chiquita"
+            class="rounded">
+        </div>
+
+        <div>
+        <p class="italic my-3">
+            Micol Neyén Natalí Machaca, mejor conocinada como Natalí, es Técnica Química, egresada de la institución 
+            Ing Luis Huergo el año 2021, a la edad de 19 años. 
+            Actualmente uno de sus objetivos es saber que le apasiona en la vida, trabajar, independizarse
+            y vivir la vida loca. <br>
+            Nació el 15 Ago 2002 en una pequeña localidad de Jujuy. Y vivió sus primeros 2 años junto con sus abuelos
+            (Eva y Raúl), hasta que su madre (Mirta) decidió independizarse para criar a su hija sola, 
+            como toda madre luchona.
+        </p>
+    </div>
+        
+    </div>
 </body>
 </html>
